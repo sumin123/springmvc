@@ -50,7 +50,7 @@ public class RequestBodyJsonController {
     public String requestBodyJsonV3(@RequestBody HelloData helloData) {
 
         log.info("username = {}, age = {}", helloData.getUsername(), helloData.getAge());
-        
+
         return "ok";
     }
 
